@@ -261,7 +261,7 @@ int main(){
                 printf("\nPor favor ingrese una opcion valida");
     }
 
-    printf("\n¿Desea agregar algo más? (si/no): ");
+    printf("\nDeseas agregar algo más? (si/no): ");
     scanf("%s", respuesta);
 
     } while (strcmp(respuesta,"si") == 0);
